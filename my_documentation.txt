@@ -1,0 +1,88 @@
+# for runing development
+use npn run dev
+
+//basics
+dynamic data is in {}curly braces
+usestate helps us to store the values
+flex:to arrange items in a row
+item-center: align elements in center according to other
+hidden : use when we donot show when size of screen is less md:flex hidden
+justify-between: use when we want two div show in opppsite end
+md: as a responsive variant modifier to target media queries like responsive breakpoints
+hover:text-primary :hover effect
+first i install next.js 
+layout page act as a holder 
+public folder is used to store images
+we are using shadcn to use talwind css
+in tailwind .css colours will be added bcoz we install shadcn
+
+Header
+we have created header.jsx in which all code of header is there
+now we know we have to use header in all pages so we import header in layout.js 
+and include header in function
+
+we us images and store im public folder like logo.svg
+
+
+
+hero section
+make hero.jsx and we went to hyperui to see interfaces choose one copy the jsx code
+
+Category Search
+in this we make CategorySearch.jsx in which search bar and categories will be shown
+we are not going to make search bargo to shadcn and got to input choose anyone 
+first of all install input
+then copy any code and paste in code
+#luicid-react
+for using icon we use luicid react
+import search ans use search icon
+
+Strapi
+we will create api and store all our data we will use mysql for the database
+
+
+#api connect
+inside app folder we create _utils and inside this we create GLobalapi.jsx
+before that in root directory make .env.local
+all environment variable wil be stored here
+now we call api in GLobalapi.jsx before that install axios npm i axios
+it help us to fetch data from api
+whenever u use any third party cloud storag u need to define in next.config.js
+call api and use 
+
+#doctor list display
+we fetch from api and diplay in wensite using loop(map function )from the apiby giving address
+
+#footer
+we donot create footer use pre created footer using hyperUi
+
+#loader
+there is gap in loading the data from api so we have to provide some loader and one of the most popular option is skeleton
+shadcn->skeleton
+
+
+#App-ROuting
+we have to make a folder search and inside page.js 
+if we want to go search folder
+http://localhost:3000/search
+if we want to include all rote in a folder then make (route) this folder will not considered
+
+layout.js whatever u want to fix on the screem (header +footer)
+page.js  dynamic jo bhi change ho raha ha 
+
+#doctors by category selection
+
+we ues command from shdcn to filter out the search
+
+#authentication
+we use kind authentication 
+
+#protect page from authentication middle ware
+
+#react email
+we use react email to write the template of emails not send emais
+in react mail we use service resend to send mail
+
+
+#deploy app
+frontend and backend both on server
