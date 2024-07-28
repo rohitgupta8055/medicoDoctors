@@ -3,7 +3,7 @@
 
 MEDICODOCTORS Web App is a Project in which a Normal User can Fetch Details of Doctors and Categories of Doctors.They can Search all type of Categories inside this Web App and Search Doctors related to that category and after that they can Book an appointment with proper date and Timing. Once they Book their appointment they can see their appointment details and upcoming appointment and expired appointment.Afte booking They recieve an Email from Our Website regarding appointment.They can also delete their appointment according to their need.
 
-[MEDICOSOCTORS KINK](https://medico-doctors.vercel.app/)
+[MEDICOSOCTORS WEBSITE LINK](https://medico-doctors.vercel.app/)
 
 
 
