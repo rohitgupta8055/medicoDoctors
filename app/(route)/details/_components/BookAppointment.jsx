@@ -89,7 +89,7 @@ function BookAppointment({doctor}) {
         <DialogTitle>Book Appointment</DialogTitle>
         <DialogDescription>
             <div>
-                <div className='grid grid-cols-1 md:grid-cols-2 mt-5'>
+                <div className='grid grid-cols-2 mt-5'>
                     {/* Calender */}
                     <div className='flex flex-col gap-3 items-baseline'>
                         <h2 className='flex gap-2 items-center'>
