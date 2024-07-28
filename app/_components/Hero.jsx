@@ -22,12 +22,10 @@ function Hero() {
             <span className='text-primary'> Appointment </span>with your Fav <span className='text-primary'> Doctors </span></h2>
 
         <p className="mt-4 text-gray-600">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-          eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-          quidem quam repellat.
+        Discover the ease of booking doctor appointments online with our user-friendly platform. Connect with highly qualified medical professionals and manage your healthcare effortlessly. Your well-being is our priority, ensuring you receive the best care whenever you need it.
         </p>
 
-        <Button className='mt-10'>Explore Now </Button>
+        <Button className='mt-10'><a href='/search/Dentist'>Explore Now</a> </Button>
         
       </div>
     </div>

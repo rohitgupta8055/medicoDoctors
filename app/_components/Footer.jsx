@@ -4,17 +4,15 @@ import Image from 'next/image'
 function Footer() {
   return (
     <footer className="bg-gray-100">
-  <div className="mx-auto max-w-5xl justify-center text-center flex flex-col items-center px-4 py-16 sm:px-6 lg:px-8">
-    <Image src='/logo.svg'
+  <div className="mx-auto max-w-5xl justify-center text-center flex flex-col items-center px-4 py-8 sm:px-6 lg:px-8">
+    <Image src='/logo_footer.png'
     alt='logo'
-    width={200}
-    height={100}/>
+    width={300}
+    height={150}/>
     <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum
-      itaque neque.
-    </p>
+    Book appointments with top doctors effortlessly. Experience seamless, reliable healthcare at your convenience, prioritizing your well-being every step.    </p>
 
-    <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+    <ul className="mt-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
       <li>
         <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
       </li>
@@ -40,7 +38,7 @@ function Footer() {
       </li>
     </ul>
 
-    <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+    <ul className="mt-8 flex justify-center gap-6 md:gap-8">
       <li>
         <a
           href="#"
@@ -95,7 +93,7 @@ function Footer() {
 
       <li>
         <a
-          href="#"
+          href="https://github.com/rohitgupta8055"
           rel="noreferrer"
           target="_blank"
           className="text-gray-700 transition hover:text-gray-700/75"

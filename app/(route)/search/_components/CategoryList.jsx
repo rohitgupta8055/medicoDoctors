@@ -33,7 +33,7 @@ function CategoryList() {
       })
     }
   return (
-    <div className='h-screen mt-5  fixed flex flex-col'>
+    <div className='h-200 mt-5   flex flex-col'>
       <Command>
   <CommandInput placeholder="Type a command or search..."/>
   <CommandList className="overflow-visible">

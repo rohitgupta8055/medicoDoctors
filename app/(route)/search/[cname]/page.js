@@ -17,7 +17,7 @@ function Search({params}) {
     })
   }
   return (
-    <div className='mt-5'>
+    <div className='pl-10 mt-5'>
         <DoctorList heading={params.cname}
         doctorList={doctorList}
         />
