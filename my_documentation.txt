@@ -86,3 +86,9 @@ in react mail we use service resend to send mail
 
 #deploy app
 frontend and backend both on server
+
+
+
+
+
+npm run dev

@@ -7,7 +7,7 @@ function DoctorList({doctorList,heading='Popular Doctor'}) {
   return (
     <div className='mb-10'>
       <h2 className='font-bold text-xl'>{heading}</h2>
-      <div className='mt-4 gap-7 grid sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4'>
+      <div className='mt-4 gap-7 grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4'>
         {doctorList.length>0?doctorList.map((doctor,index)=>(
             <div key={index} className='border-[1px] rounded-lg p-3 cursor-pointer hover:border-primary hover:shadow-sm transition-all ease-in-out'>
                 <Image src={doctor?.attributes?.Image?.data[0].attributes?.url}
